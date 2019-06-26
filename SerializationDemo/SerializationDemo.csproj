@@ -40,6 +40,12 @@
     <ItemGroup>
         <Compile Include="SerializationMain.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Serialize\SerializeConvert.cs" />
+        <Compile Include="Serialize\SerializeHandler\BinaryHandler.cs" />
+        <Compile Include="Serialize\SerializeHandler\ISerializeHandler.cs" />
+        <Compile Include="Serialize\SerializeHandler\JSONHandler.cs" />
+        <Compile Include="Serialize\SerializeHandler\XMLHandler.cs" />
+        <Compile Include="Serialize\SerializeType.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
